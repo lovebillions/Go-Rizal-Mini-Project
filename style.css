@@ -1,0 +1,297 @@
+.btn{
+    background-color: #007073;
+    font-size: 15px;    
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+}
+
+.btn-lg{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#cardSection{
+    background-color: #007073;
+    padding: 20px;
+}
+
+.btn:hover
+{
+    background-color: #007073;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+
+}
+
+.navbar-brand{
+    color: white;
+  }
+
+p{color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+h2{
+    font-family: Arsenal;
+}
+
+
+header {
+    position: relative;
+    height: 95vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+    
+    
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    
+  }
+
+  
+  .card-text-container {
+   
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+
+  .card-text-container > p {
+    font-size: 19px;
+  }
+
+
+.navbar-toggler{
+ background-color: #007073;
+ 
+}
+
+.card {
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.card-img-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.card-title {
+  margin-bottom: 0;
+}
+.card-title-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.card-price {
+  margin-bottom: 0;
+}
+.card-description {
+  padding: 15px;
+}
+.card-button {
+  float: right;
+}
+
+
+
+.testimonial-container{
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.testimonial-card {
+  background-color: rgba(0, 0, 0, 0.3); /* Transparent black background */
+  border: none;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white; /* Text color */
+}
+
+.testimonial-card .card-body {
+  padding-top: 0;
+}
+
+.testimonial-card .rating {
+  color: white; /* White color for stars */
+  margin-bottom: 10px;
+}
+
+.testimonial-card .name {
+  font-style: bold;
+  font-size: 19px;
+  margin-top: 15px;
+}
+
+
+.testimonial-card .card-text{
+  font-style: bold;
+  font-size: 19px;
+}
+
+.testimonial-container {
+  background-image: url('https://cdn.pixabay.com/photo/2014/11/15/23/31/alpsee-532864_1280.jpg'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+
+/*footer */
+
+
+.BookATour {
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973_1280.jpg'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-column {
+  text-align: center;
+}
+
+.footer-icons a {
+  color: white;
+  margin: 0 5px;
+}
+
+
+#footer{
+  margin-top: 20px;
+  background-color: #000;
+}
+
+/*navbar */
+
+.navbar-custom {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-custom .navbar-brand {
+  margin-right: auto; /* Push the brand/logo to the left */
+  color: white; /* Logo text color */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  border-radius: 50px; /* Rounded corners for links */
+  background-color: #007073; /* Background color for links */
+  padding: 10px 20px;
+  margin: 0 20px;
+  color: white; /* Text color for links */
+}
+
+.navbar-custom .navbar-nav .nav-item.dropdown:hover > .dropdown-menu {
+  display: block; /* Show submenu on hover */
+}
+
+
+@media (max-width: 991.98px) {
+  .navbar-custom .navbar-nav .nav-link{
+    
+    border-radius: 2px; /* Change border radius to 0 for toggled menu items */
+    background-color: rgba(0, 112, 115, 0.80);  /* Transparent black background */
+   
+  }
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(0, 112, 115, 0.5); /* Change this color to your desired hover background color */
+  color: #fff; /* Change the text color on hover if needed */
+}
+
+
+
+@media (max-width: 575px) {
+  .flex-column {
+    flex-direction: column !important;
+    align-items: center;
+     margin-left: 15px;
+     margin-right: 15px;
+     margin-top: -100px; 
+  }
+
+ 
+  .BookATour{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+}
+
+

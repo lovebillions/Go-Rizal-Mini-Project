@@ -1,0 +1,139 @@
+.navbar-custom {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .navbar-custom .navbar-brand {
+    margin-right: auto; /* Push the brand/logo to the left */
+    color: white; /* Logo text color */
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    border-radius: 50px; /* Rounded corners for links */
+    background-color: #007073; /* Background color for links */
+    padding: 10px 20px;
+    margin: 0 20px;
+    color: white; /* Text color for links */
+  }
+  
+  .navbar-custom .navbar-nav .nav-item.dropdown:hover > .dropdown-menu {
+    display: block; /* Show submenu on hover */
+  }
+  
+  
+  @media (max-width: 991.98px) {
+    .navbar-custom .navbar-nav .nav-link{
+      
+      border-radius: 2px; /* Change border radius to 0 for toggled menu items */
+      background-color: rgba(0, 112, 115, 0.80);  /* Transparent black background */
+     
+    }
+  }
+  
+  .navbar .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(0, 112, 115, 0.5); /* Change this color to your desired hover background color */
+    color: #fff; /* Change the text color on hover if needed */
+  }
+  
+    /* Add your custom styles here */
+    .about-section {
+     
+      text-align: center;
+    }
+    .about-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+    .about-section p {
+      font-size: 19px;
+      color: black;
+    }
+    .team-section {
+      padding: 80px 0;
+    
+      
+    }
+    .team-member {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .team-member img {
+      max-width: 100%;
+      border-radius: 50%;
+    }
+    .team-member h3 {
+      margin-top: 20px;
+      font-size: 1.5rem;
+    }
+    .team-member p {
+ 
+      color: black;
+    }
+
+
+  /*footer */
+
+
+.BookATour {
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973_1280.jpg'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-column {
+  text-align: center;
+}
+
+.footer-icons a {
+  color: white;
+  margin: 0 5px;
+}
+
+
+#footer{
+  margin-top: 20px;
+  background-color: #000;
+}
+
+.btn{
+  background-color: #007073;
+  font-size: 15px;    
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: white;
+}
+
+.btn:hover
+{
+    background-color: #007073;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
